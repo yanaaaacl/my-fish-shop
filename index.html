@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -14,7 +17,10 @@
   <header class="header">
     <div class="container">
       <div class="header-top">
-        <img src="images/logo.png" alt="logo" class="logo">
+        <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" class="logo__img">
+      </a>
+        <nav class="header__nav">
         <ul class="header__ul">
       <li class="header__li"><a class="header__link" href="#">О нас</a></li>
       <li class="header__li"><a class="header__link" href="#">Продукция</a></li>
@@ -23,7 +29,10 @@
       <li class="header__li"><a class="header__link" href="#">История</a></li>
       <li class="header__li"><a class="header__link" href="#">Оптовикам</a></li>
         </ul>
-        <img src="images/phone.svg" alt="phone" class="phone">
+      </nav>
+      <a href="#" class="phone">
+        <img src="images/phone.svg" alt="phone__img" class="phone__img">
+      </a>
       </div>
     </div>
   </header>
