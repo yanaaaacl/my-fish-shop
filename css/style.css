@@ -1,0 +1,49 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    background-color: #e5e5e5;
+}
+.container{
+    max-width: 1460px;
+    padding: 0 10px;
+
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__img{
+
+}
+.menu{
+text-transform: uppercase;
+}
+.menu__ul{
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+}
+.menu__li{
+
+}
+.menu__link{
+color: #111010;
+font-size: 16px;
+line-height: 24px;
+}
+.header__bag{
+
+}
+.header__number{
+font-size: 16px;
+color: #111010;
+line-height: 16px;
+}
